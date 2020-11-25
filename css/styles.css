@@ -60,3 +60,16 @@ tr:hover {background-color:#dbb08db0!important}
     bottom: 0px;
     z-index: +1;
 }
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
